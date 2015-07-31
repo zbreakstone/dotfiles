@@ -1,5 +1,5 @@
-# dotfiles
-This is a repo for my super-custom dotfiles!
+# These are my dotfiles!
+I hope to never lose them again.
 
 1. Clone repo into Documents
   ```
