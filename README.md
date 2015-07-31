@@ -6,6 +6,7 @@ This is a repo for my super-custom dotfiles!
 cd ~/Documents;
 git clone https://github.com/zbreakstone/dotfiles.git;
 ```
+
 2. Create symlinks from the files in dotfiles folder to your user folder:
 ```
 cd ~;
