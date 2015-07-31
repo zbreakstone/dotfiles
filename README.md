@@ -12,5 +12,7 @@
   cd ~;
   ln -s ~/Documents/dotfiles/.bash_profile;
   ln -s ~/Documents/dotfiles/.gitconfig;
+  ln -s ~/Documents/dotfiles/Preferences.sublime-settings
+  ln -s ~/Documents/dotfiles/Material-Theme.sublime-theme
   ```
 
