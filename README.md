@@ -12,6 +12,25 @@
   cd ~;
   ln -s ~/Documents/dotfiles/.bash_profile;
   ln -s ~/Documents/dotfiles/.gitconfig;
+  ```
+3. Download Sublime Text 3: http://www.sublimetext.com/3
+
+4. Install Package Control: https://packagecontrol.io/installation#st3
+
+5. Install *Material Theme*
+
+6. Navigate to Sublime Text Program File:
+  ```
+  cd Library/Application\ Support/Sublime\ Text\ 3/Packages/User;
+  ```
+
+7. Remove existing User Preference File:
+  ```
+  rm Preferences.sublime-settings;
+  ```
+  
+8. Create symlinks for Sublime Text Preferences and Material Theme:
+  ```
   ln -s ~/Documents/dotfiles/Preferences.sublime-settings;
   ln -s ~/Documents/dotfiles/Material-Theme.sublime-theme;
   ```
