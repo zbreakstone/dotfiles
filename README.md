@@ -13,3 +13,4 @@ cd ~;
 ln -s ~/Documents/dotfiles/.bash_profile;
 ln -s ~/Documents/dotfiles/.gitconfig;
 ```
+
