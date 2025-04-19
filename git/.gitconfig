@@ -1,0 +1,7 @@
+[init]
+	defaultBranch = main
+[user]
+	name = Zack Breakstone
+	email = z.breakstone@gmail.com
+[core]
+	editor = cursor --wait
