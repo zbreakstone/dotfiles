@@ -40,4 +40,15 @@ alias ports="lsof -i -P | grep LISTEN"
 
 # --- Make + cd in one go ---
 mcd() { mkdir -p "$1" && cd "$1"; }
+
+# --- Use eza to colorize ls ---
+alias ls='eza --icons --group-directories-first --color=always'
+
+# --- Starship theme ---
 eval "$(starship init zsh)"
+
+# fzf keybindings & completion
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# zoxide (smarter "z" command)
+eval "$(zoxide init zsh)"
