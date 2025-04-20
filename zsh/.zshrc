@@ -32,7 +32,26 @@ alias c='clear'
 alias gs='git status -sb'
 alias gc='git commit -v'
 alias gp='git push'
-alias gco='git checkout'
+
+gco() {
+  git checkout "$(git branch --all | grep -v HEAD | sed 's/^[* ] //' | fzf)"
+}
+
+gcs() {
+  git checkout "$(git log --oneline --decorate | fzf | awk '{print $1}')"
+}
+
+grestore() {
+  git checkout HEAD -- "$(git ls-files --deleted | fzf)"
+}
+
+gd() {
+  git diff --name-only | fzf --multi | xargs git diff
+}
+
+gsp() {
+  git stash list | fzf | awk -F: '{print $1}' | xargs git stash pop
+}
 
 # --- Networking ---
 alias myip="curl ifconfig.me"
