@@ -5,3 +5,7 @@
 	email = z.breakstone@gmail.com
 [core]
 	editor = cursor --wait
+[fetch]
+	prune = true # prune on every fetch
+[pull]
+	prune = true # prune on every pull
