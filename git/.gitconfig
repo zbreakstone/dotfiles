@@ -5,6 +5,7 @@
 	email = z.breakstone@gmail.com
 [core]
 	editor = cursor --wait
+	excludesfile = /Users/zack/.gitignore_global
 [fetch]
 	prune = true # prune on every fetch
 [pull]
